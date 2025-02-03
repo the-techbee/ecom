@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../Assets/logo.png";
+import logo from "../../Assets/footer.png";
 import paymentIcon from "../../Assets/paymentIcon.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -34,10 +34,10 @@ const Footer = () => {
               <img src={logo} alt="" Z />
             </div>
 
-            <p>1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
+            <p>28 North Woodrow Boulevard, Scarborough, Ontario, M1K 1W3. United States</p>
 
             <div className="footer_address">
-              <strong> sale@uomo.com </strong>
+              <strong> sale@Ecom.com </strong>
               <strong> +1 246-345-0695 </strong>
             </div>
 
@@ -139,23 +139,13 @@ const Footer = () => {
         </div>
         <div className="footer_bottom">
           <p>
-            © {getCurrentYear()} Uomo. All Rights Reserved | Made By{" "}
-            <a
-              href="https://github.com/shakti177"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#C22928", textDecoration: "none" }}
-            >
-              Shakti Tamrakar
-            </a>{" "}
-            with ❤️
+            © {getCurrentYear()} Ecom. All Rights Reserved.
           </p>
           <div className="footerLangCurrency">
             <div className="footerLang">
               <p>Language</p>
               <select name="language" id="language">
                 <option value="english">United States | English</option>
-                <option value="Hindi">Hindi</option>
                 <option value="Germany">Germany</option>
                 <option value="French">French</option>
               </select>
@@ -164,7 +154,6 @@ const Footer = () => {
               <p>Currency</p>
               <select name="currency" id="currency">
                 <option value="USD">$ USD</option>
-                <option value="INR">₹ INR</option>
                 <option value="EUR">€ EUR</option>
                 <option value="GBP">£ GBP</option>
               </select>

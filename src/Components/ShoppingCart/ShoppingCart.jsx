@@ -443,7 +443,7 @@ const ShoppingCart = () => {
                         </option>
                         <option value="India">India</option>
                         <option value="Canada">Canada</option>
-                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Canada">Canada</option>
                         <option value="United States">United States</option>
                         <option value="Turkey">Turkey</option>
                       </select>
